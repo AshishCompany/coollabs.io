@@ -69,16 +69,16 @@
             </svg>
           </div>
           <div class="mt-5">
-            <dt class="text-lg leading-6 font-medium text-gray-900">
+            <div class="text-lg leading-6 font-medium text-gray-900">
               With privacy-centric mindset
-            </dt>
-            <dd class="mt-2 text-base text-gray-500">
+            </div>
+            <div class="mt-2 text-base text-gray-500">
               We never sell your data and respects your & your user's privacy.
               <br /><br />
               We
               <span class="font-bold text-green-500">do not store</span>
               any personal information, only the absolute necessary ones.
-            </dd>
+            </div>
           </div>
         </div>
         <div>
@@ -98,10 +98,10 @@
             </svg>
           </div>
           <div class="mt-5">
-            <dt class="text-lg leading-6 font-medium text-gray-900">
+            <div class="text-lg leading-6 font-medium text-gray-900">
               With trusted architecture
-            </dt>
-            <dd class="mt-2 text-base text-gray-500">
+            </div>
+            <div class="mt-2 text-base text-gray-500">
               We do not use large hosting companies, instead dedicated servers
               from independent and reliable companies.
               <br /><br />
@@ -111,7 +111,7 @@
                 class="underline font-bold text-purple-500"
                 href="https://requestmap.webperf.tools/">this</a>
               awesome tool.
-            </dd>
+            </div>
           </div>
         </div>
         <div>
@@ -131,10 +131,10 @@
             </svg>
           </div>
           <div class="mt-5">
-            <dt class="text-lg leading-6 font-medium text-gray-900">
+            <div class="text-lg leading-6 font-medium text-gray-900">
               With a friendly business model
-            </dt>
-            <dd class="mt-2 text-base text-gray-500">
+            </div>
+            <div class="mt-2 text-base text-gray-500">
               We are open sourcing all of our codebases.
               <br /><br />
               This is our first step to be
@@ -144,7 +144,7 @@
               <span class="font-bold text-yellow-500">hassle-free, hosted but
                 paid version</span>
               of our products!
-            </dd>
+            </div>
           </div>
         </div>
       </dl>
@@ -166,14 +166,14 @@
             </svg>
           </div>
           <div class="mt-5">
-            <dt class="text-lg leading-6 font-medium text-gray-900">
+            <div class="text-lg leading-6 font-medium text-gray-900">
               With hand-made services
-            </dt>
-            <dd class="mt-2 text-base text-gray-500">
+            </div>
+            <div class="mt-2 text-base text-gray-500">
               All services used by our apps are carefully
               <span class="font-bold text-red-400">built by us & the community.</span>
               This ensures that your data does not flows beyond us.
-            </dd>
+            </div>
           </div>
         </div>
 
@@ -194,13 +194,13 @@
             </svg>
           </div>
           <div class="mt-5">
-            <dt class="text-lg leading-6 font-medium text-gray-900">
+            <div class="text-lg leading-6 font-medium text-gray-900">
               With an open community
-            </dt>
-            <dd class="mt-2 text-base text-gray-500">
+            </div>
+            <div class="mt-2 text-base text-gray-500">
               <span class="font-bold text-blue-500">Anybody could shape</span>
               our products with their ideas! Literally anybody!
-            </dd>
+            </div>
           </div>
         </div>
 
@@ -222,13 +222,13 @@
             </svg>
           </div>
           <div class="mt-5">
-            <dt class="text-lg leading-6 font-medium text-gray-900">
+            <div class="text-lg leading-6 font-medium text-gray-900">
               With cool technologies
-            </dt>
-            <dd class="mt-2 text-base text-gray-500">
+            </div>
+            <div class="mt-2 text-base text-gray-500">
               We use the latest technologies, so we can build lightning fast
               apps and ship them in a blink of an eye!
-            </dd>
+            </div>
           </div>
         </div>
       </dl>
