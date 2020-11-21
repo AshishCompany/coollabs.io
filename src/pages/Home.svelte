@@ -51,7 +51,7 @@
     </div>
 
     <div class="mt-10">
-      <dl class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
+      <div class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
         <div>
           <div
             class="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
@@ -147,8 +147,8 @@
             </div>
           </div>
         </div>
-      </dl>
-      <dl class="space-y-10 pt-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
+      </div>
+      <div class="space-y-10 pt-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
         <div>
           <div
             class="flex items-center justify-center h-12 w-12 rounded-md bg-red-400 text-white">
@@ -231,7 +231,7 @@
             </div>
           </div>
         </div>
-      </dl>
+      </div>
     </div>
   </div>
 </div>
