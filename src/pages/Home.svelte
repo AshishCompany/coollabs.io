@@ -76,7 +76,7 @@
               We never sell your data and respects your & your user's privacy.
               <br /><br />
               We
-              <span class="font-bold text-green-500">does not store</span>
+              <span class="font-bold text-green-500">do not store</span>
               any personal information, only the absolute necessary ones.
             </dd>
           </div>
