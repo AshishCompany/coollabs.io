@@ -1,0 +1,15 @@
+{
+    "name": "coollabs-io",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+      "start": "serve",
+      "build": "echo This is a static template, there is no bundler or bundling involved!"
+    },
+    "keywords": [],
+    "author": "Andras Bacsai",
+    "devDependencies": {
+      "serve": "^11.2.0"
+    }
+  }
