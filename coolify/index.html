@@ -20,12 +20,12 @@
   <link rel="dns-prefetch" href="https://cdn.coollabs.io/" />
   <link rel="preconnect" href="https://cdn.coollabs.io/" crossorigin="" />
   <link rel="stylesheet" href="https://cdn.coollabs.io/css/tailwind-2.0.3.min.css" />
-  <link rel="stylesheet" href="https://cdn.coollabs.io/fonts/inter/inter.css" />
+  <link rel="stylesheet" href="https://cdn.coollabs.io/fonts/montserrat/montserrat.css" />
   <script src="https://cdn.coollabs.io/js/typed.js-2.0.11.js"></script>
 
   <style>
     html {
-      font-family: Inter;
+      font-family: montserrat;
       background-color: rgba(22, 22, 22);
     }
 
@@ -61,7 +61,7 @@
     <div class="">
       <div class="max-w-7xl mx-auto px-2 py-10 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div class="text-center flex flex-col justify-center items-center">
-          <p class="mt-1 pb-8 text-4xl font-extrabold text-white text-5xl sm:tracking-tight lg:text-6xl text-center">
+          <p class="mt-1 pb-8 text-4xl font-extrabold text-white text-5xl  lg:text-6xl text-center">
             Coolify
           </p>
           <h2 class="text-2xl md:text-3xl font-extrabold text-white">
@@ -90,10 +90,8 @@
                 <div class="text-lg leading-6 font-extrabold text-white">
                   Application deployments
                 </div>
-                <div class="mt-2 text-base text-gray-100">
-                  Deploy your application just by pushing code to git.
-                  <br />
-                  <span class="text-xs">Node.js based applications and static sites are currently supported.</span>
+                <div class="mt-2 text-base text-gray-300">
+                  Deploy your <span class="font-bold text-green-400">Node.js </span>and <span class="font-bold text-green-400">static sites</span> just by pushing code to git.
                 </div>
               </div>
             </div>
@@ -109,13 +107,13 @@
                 <div class="text-lg leading-6 font-extrabold text-white">
                   Databases
                 </div>
-                <div class="mt-2 text-base text-gray-100">
-                  One-click MongoDB, PostgreSQL and CouchDB (and more) deployments!
+                <div class="mt-2 text-base text-gray-300">
+                  One-click <span class="font-bold text-yellow-400">MongoDB, MySQL, PostgreSQL, CouchDB</span> deployments!
                 </div>
               </div>
             </div>
             <div>
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-gray-500 text-white">
+              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-pink-500 text-white">
                 <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                   stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -124,16 +122,31 @@
               </div>
               <div class="mt-5">
                 <div class="text-lg leading-6 font-extrabold text-white">
-                  Hassle-free self-hosting
+                  Hassle-free installation
                 </div>
-                <div class="mt-2 text-base text-gray-100">
-                  Installation is easy as running one script. Really! (Upgrade is one click!)
+                <div class="mt-2 text-base text-gray-300">
+                  Install your all-in-one infrastructure <span class="font-bold text-pink-500">with one command!</span>
                 </div>
               </div>
             </div>
           </div>
           <div
             class="space-y-10 pt-6 lg:pt-10 lg:space-y-0 mx-auto lg:grid justify-center lg:grid-cols-3 lg:gap-8 w-custom">
+            <div>
+              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-500 text-white">
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <div class="mt-5">
+                <div class="text-lg leading-6 font-extrabold text-white">
+                  Hassle-free upgrade
+                </div>
+                <div class="mt-2 text-base text-gray-300">
+                  <span class="font-bold text-purple-500">One-click</span> upgrade process!</span>
+                </div>
+              </div>
+            </div>
 
             <div>
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-red-400 text-white">
@@ -152,7 +165,6 @@
                 </div>
               </div>
             </div>
-
             <div>
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
                 <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -170,24 +182,6 @@
                 </div>
               </div>
             </div>
-            <div>
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-500 text-white">
-                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                  stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div class="mt-5">
-                <div class="text-lg leading-6 font-extrabold text-white">
-                  And much more
-                </div>
-                <div class="mt-2 text-xs text-red-500">
-                  coming soon
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
@@ -226,7 +220,7 @@
   </main>
   <footer class="bg-coolblack text-white">
     <div class="max-w-7xl mx-auto  px-4 sm:px-6 md:flex md:items-center md:justify-center lg:px-8">
-      <div class="mt-8 md:mt-0 md:order-1">
+      <div class="my-8 md:mt-0 md:order-1">
         <p class="text-center text-sm font-bold">
           Made from
           <svg xmlns="http://www.w3.org/2000/svg" class="w-4 inline-flex" viewBox="0 0 36 36">
