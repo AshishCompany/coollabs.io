@@ -60,12 +60,15 @@
       border-image: linear-gradient(0.25turn, rgba(255, 249, 34), rgba(255, 0, 128), rgba(56, 2, 155, 0));
       border-image-slice: 1;
     }
+    .h-screen-footer {
+      min-height: calc(100vh - 120px)
+    }
   </style>
 </head>
 
-<body>
+<body class="min-h-screen bg-coolblack">
+  <main class="h-screen-footer">
 
-  <main class="bg-coolblack">
     <header class="p-4 flex justify-center">
       <a href="/index.html"
         class="mx-2 cursor-pointer text-white px-2 rounded transition duration-100 bg-coolgray tracking-tight font-bold">coolLabs</a>
@@ -89,7 +92,7 @@
       </div>
     </div>
 
-    <div class="pb-32">
+    <div class="pb-24">
       <div class="max-w-7xl sm:mx-10  lg:mx-auto px-4 sm:px-6 lg:px-8">
         <div class="mt-10">
           <div class="space-y-10 lg:space-y-0 mx-auto lg:grid lg:grid-cols-3 lg:gap-8 w-custom">

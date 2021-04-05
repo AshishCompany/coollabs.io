@@ -38,13 +38,15 @@
       border-image: linear-gradient(0.25turn, rgba(255, 249, 34), rgba(255, 0, 128), rgba(56, 2, 155, 0));
       border-image-slice: 1;
     }
-    
+    .h-screen-footer {
+      min-height: calc(100vh - 120px)
+    }
   </style>
 </head>
 
-<body>
-  <main class="min-h-screen bg-coolblack">
-    <div class="bg-coolblack">
+<body class="min-h-screen bg-coolblack text-white">
+  <main class="h-screen-footer">
+        <div class="min-h-full">
       <header class="p-4 flex justify-center">
         <a href="/index.html"
           class="mx-2 cursor-pointer text-white px-2 rounded transition duration-100 bg-coolgray tracking-tight font-bold">Home</a>
@@ -264,10 +266,10 @@
       </div>
     </div>
   </main>
-  <footer class="bg-coolblack text-white">
-    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
-      <div class="flex justify-center space-x-6 md:order-2">
-        <a href="https://twitter.com/andrasbacsai" class="text-gray-400 hover:text-white"><span
+  <footer class="bg-transparent text-white bottom-0 w-full">
+    <div class="max-w-7xl mx-auto py-12 px-6 flex items-center justify-between">
+      <div class="flex justify-center space-x-4 order-2">
+        <a href="https://twitter.com/andrasbacsai" class="text-gray-400 hover:text-gray-500"><span
             class="sr-only">Twitter</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path
@@ -275,7 +277,7 @@
             </path>
           </svg></a>
 
-        <a href="https://github.com/coollabsio" class="text-gray-400 hover:text-white"><span
+        <a href="https://github.com/coollabsio" class="text-gray-400 hover:text-gray-500"><span
             class="sr-only">GitHub</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path fill-rule="evenodd"
@@ -283,7 +285,7 @@
               clip-rule="evenodd"></path>
           </svg></a>
       </div>
-      <div class="mt-8 md:mt-0 md:order-1">
+      <div class="mt-0 order-1">
         <p class="text-center text-sm font-bold">
           Made from
           <svg xmlns="http://www.w3.org/2000/svg" class="w-4 inline-flex" viewBox="0 0 36 36">
