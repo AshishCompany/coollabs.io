@@ -52,6 +52,11 @@
         }
       }
     }
+    .gradient {
+      border-bottom: 2px solid transparent;
+      border-image: linear-gradient(0.25turn, rgba(255, 249, 34), rgba(255, 0, 128), rgba(56, 2, 155, 0));
+      border-image-slice: 1;
+    }
   </style>
 </head>
 
@@ -61,10 +66,10 @@
     <div class="">
       <div class="max-w-7xl mx-auto px-2 py-10 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div class="text-center flex flex-col justify-center items-center">
-          <p class="mt-1 pb-8 text-4xl font-extrabold text-white text-5xl  lg:text-6xl text-center">
+          <p class="mt-1 text-4xl font-extrabold text-white text-5xl  lg:text-6xl text-center gradient">
             Coolify
           </p>
-          <h2 class="text-2xl md:text-3xl font-extrabold text-white">
+          <h2 class="text-2xl md:text-3xl font-extrabold text-white pt-8">
             An open-source, hassle-free, self-hostable<br />
             <span class="text-indigo-400">Heroku</span>
             & <span class="text-green-400">Netlify</span> alternative

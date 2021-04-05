@@ -29,20 +29,35 @@
     .bg-coolblack {
       background-color: rgba(22, 22, 22);
     }
+    .bg-coolgray:hover {
+      background-color: rgba(68,64,60)
+    }
+
+    .gradient {
+      border-bottom: 2px solid transparent;
+      border-image: linear-gradient(0.25turn, rgba(255, 249, 34), rgba(255, 0, 128), rgba(56, 2, 155, 0));
+      border-image-slice: 1;
+    }
+    
   </style>
 </head>
 
 <body>
-  <main class="min-h-screen">
+  <main class="min-h-screen bg-coolblack">
     <div class="bg-coolblack">
-      <header class="p-4 flex justify-end">
+      <header class="p-4 flex justify-center">
+        <a href="/index.html"
+          class="mx-2 cursor-pointer text-white px-2 rounded transition duration-100 bg-coolgray tracking-tight font-bold">Home</a>
         <a href="/products.html"
-          class="mx-2 cursor-pointer text-white border-b-4 border-transparent hover:border-blue-500 tracking-tight font-bold">Products</a>
+        class="mx-2 cursor-pointer text-white px-2 rounded transition duration-100 bg-coolgray tracking-tight font-bold">Products</a>
+        <a href="/support.html"
+        class="mx-2 cursor-pointer text-white px-2 rounded transition duration-100 bg-coolgray tracking-tight font-bold">Support
+          my vision</a>
       </header>
-      <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <p class="mt-1 pb-8 text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl text-center">
-            Control your digital footprint
+            <span class="gradient">Control your digital footprint </span>
           </p>
           <h2 class="text-xl sm:text-3xl font-extrabold text-white">
             Applications and services built for your online safety
@@ -53,17 +68,17 @@
 
     <div class="relative px-4 sm:px-6 lg:px-8">
       <div class="text-lg max-w-prose mx-auto">
-        <p class="mt-8 text-xl text-gray-500 leading-8">
+        <p class="mt-8 text-xl text-white leading-8">
           It's frustrating how deeply we are bonded to large companies. We use
           their products everyday. Rarely thinking of what we give them in
           return.
         </p>
-        <p class="mt-8 text-xl text-gray-500 leading-8">
+        <p class="mt-8 text-xl text-white leading-8">
           We allow them to
           <span class="text-red-500 font-bold">collect & aggregate</span>
           our personal information & do whatever they want with it!
         </p>
-        <p class="mt-8 text-xl text-gray-500 leading-8">
+        <p class="mt-8 text-xl text-white leading-8">
           They are selling literally to anybody who pays for it.
           <br />(<span class="text-red-500 font-bold">+80%</span> of Google's
           & <span class="text-red-500 font-bold">+98%</span> of Facebook's
@@ -71,7 +86,7 @@
           <a class="underline font-bold text-blue-500"
             href="https://www.visualcapitalist.com/how-tech-giants-make-billions/">targeted ads!</a>)
         </p>
-        <p class="mt-8 text-xl text-gray-500 leading-8">
+        <p class="mt-8 text-xl text-white leading-8">
           Even if you keep yourself far away from their products, they are
           still able to collect data of
           <a class="underline font-bold text-blue-500"
@@ -81,7 +96,7 @@
           <a class="underline font-bold text-blue-500"
             href="https://w3techs.com/technologies/details/ta-googleanalytics">Google Analytics</a>)
         </p>
-        <p class="mt-8 text-2xl text-center text-gray-500 leading-8">
+        <p class="mt-8 text-2xl text-center text-white leading-8">
           You & your user's
           <span class="text-green-500 font-bold">should not be</span> the
           products!
@@ -89,10 +104,10 @@
       </div>
     </div>
 
-    <div class="py-12 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="lg:text-center">
-          <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+    <div class="py-12  pt-32">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+        <div class="lg:text-center ">
+          <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl gradient max-w-sm mx-auto">
             How we solving it?
           </p>
         </div>
@@ -108,10 +123,10 @@
                 </svg>
               </div>
               <div class="mt-5">
-                <div class="text-lg leading-6 font-extrabold text-gray-900">
+                <div class="text-lg leading-6 font-extrabold text-white">
                   With privacy-centric mindset
                 </div>
-                <div class="mt-2 text-base text-gray-500">
+                <div class="mt-2 text-base text-white">
                   We never sell your data and respects your &amp; your user's
                   privacy. <br /><br />
                   We
@@ -130,10 +145,10 @@
                 </svg>
               </div>
               <div class="mt-5">
-                <div class="text-lg leading-6 font-extrabold text-gray-900">
+                <div class="text-lg leading-6 font-extrabold text-white">
                   With trusted architecture
                 </div>
-                <div class="mt-2 text-base text-gray-500">
+                <div class="mt-2 text-base text-white">
                   We do not use large hosting companies, instead dedicated
                   servers from independent and reliable companies.
                   <br /><br />
@@ -155,10 +170,10 @@
                 </svg>
               </div>
               <div class="mt-5">
-                <div class="text-lg leading-6 font-extrabold text-gray-900">
+                <div class="text-lg leading-6 font-extrabold text-white">
                   With a friendly business model
                 </div>
-                <div class="mt-2 text-base text-gray-500">
+                <div class="mt-2 text-base text-white">
                   We are open sourcing all of our codebases. <br /><br />
                   This is our first step to be
                   <span class="font-bold text-yellow-500">trustworthy</span>.
@@ -181,10 +196,10 @@
                 </svg>
               </div>
               <div class="mt-5">
-                <div class="text-lg leading-6 font-extrabold text-gray-900">
+                <div class="text-lg leading-6 font-extrabold text-white">
                   With hand-made services
                 </div>
-                <div class="mt-2 text-base text-gray-500">
+                <div class="mt-2 text-base text-white">
                   All services used by our apps are carefully
                   <span class="font-bold text-red-400">built by us &amp; the community.</span>
                   This ensures that your data does not flows beyond us.
@@ -202,10 +217,10 @@
                 </svg>
               </div>
               <div class="mt-5">
-                <div class="text-lg leading-6 font-extrabold text-gray-900">
+                <div class="text-lg leading-6 font-extrabold text-white">
                   With an open community
                 </div>
-                <div class="mt-2 text-base text-gray-500">
+                <div class="mt-2 text-base text-white">
                   <span class="font-bold text-blue-500">Anybody could shape</span>
                   our products with their ideas! Literally anybody!
                 </div>
@@ -213,7 +228,7 @@
             </div>
 
             <div>
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-black text-white">
+              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-pink-500 text-white">
                 <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                   stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z">
@@ -221,10 +236,10 @@
                 </svg>
               </div>
               <div class="mt-5">
-                <div class="text-lg leading-6 font-extrabold text-gray-900">
+                <div class="text-lg leading-6 font-extrabold text-white">
                   With cool technologies
                 </div>
-                <div class="mt-2 text-base text-gray-500">
+                <div class="mt-2 text-base text-white">
                   We use the latest technologies, so we can build lightning
                   fast apps and ship them in a blink of an eye!
                 </div>
@@ -233,12 +248,12 @@
           </div>
         </div>
       </div>
-      <div class="bg-white">
+      <div class="">
         <div class="max-w-7xl mx-auto text-center py-1 px-4 sm:px-6 lg:pt-16 lg:px-8">
-          <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
-            <span class="block">Follow my journey on
+          <h2 class="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
+            <span class="block ">Follow my journey on
               <a href="https://twitter.com/andrasbacsai"><span class="sr-only">Twitter</span>
-                <svg class="inline-block w-12 h-12 text-blue-500" fill="currentColor" viewBox="0 0 24 24"
+                <svg class="inline-block w-12 h-12 text-blue-500 hover:text-blue-400" fill="currentColor" viewBox="0 0 24 24"
                   aria-hidden="true">
                   <path
                     d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
@@ -252,7 +267,7 @@
   <footer class="bg-coolblack text-white">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
       <div class="flex justify-center space-x-6 md:order-2">
-        <a href="https://twitter.com/andrasbacsai" class="text-gray-400 hover:text-gray-500"><span
+        <a href="https://twitter.com/andrasbacsai" class="text-gray-400 hover:text-white"><span
             class="sr-only">Twitter</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path
@@ -260,7 +275,7 @@
             </path>
           </svg></a>
 
-        <a href="https://github.com/coollabsio" class="text-gray-400 hover:text-gray-500"><span
+        <a href="https://github.com/coollabsio" class="text-gray-400 hover:text-white"><span
             class="sr-only">GitHub</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path fill-rule="evenodd"

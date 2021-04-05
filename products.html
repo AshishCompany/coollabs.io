@@ -33,19 +33,41 @@
     .opacity-85 {
       opacity: 85%;
     }
+    .bg-coolgray:hover {
+      background-color: rgba(68,64,60)
+    }
+
+    .gradient {
+      border-bottom: 2px solid transparent;
+      border-image: linear-gradient(0.25turn, rgba(255, 249, 34), rgba(255, 0, 128), rgba(56, 2, 155, 0));
+      border-image-slice: 1;
+    }
   </style>
 </head>
 
 <body class="h-full bg-coolblack">
   <main class="h-full">
     <div class="h-full">
-      <header class="p-4 flex justify-end">
+      <header class="p-4 flex justify-center">
         <a href="/index.html"
-          class="mx-2 cursor-pointer text-white border-b-4 border-transparent hover:border-blue-500 tracking-tight font-bold">Home</a>
+          class="mx-2 cursor-pointer text-white px-2 rounded transition duration-100 bg-coolgray tracking-tight font-bold">Home</a>
+        <a href="/products.html"
+        class="mx-2 cursor-pointer text-white px-2 rounded transition duration-100 bg-coolgray tracking-tight font-bold">Products</a>
+        <a href="/support.html"
+        class="mx-2 cursor-pointer text-white px-2 rounded transition duration-100 bg-coolgray tracking-tight font-bold">Support
+          my vision</a>
       </header>
+    <div class="max-w-2xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+          <p
+              class="mt-1 pb-8 text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl text-center gradient">
+              Products
+          </p>
+      </div>
+  </div>
       <a href="/coolify/index.html" class="text-white cursor-pointer w-full flex justify-center py-10">
         <div
-          class="bg-black rounded-lg transition duration-200 ease-in-out hover:bg-indigo-900 transform hover:-translate-y-1 hover:scale-110 w-4/5 shadow-xl">
+          class="bg-black rounded-lg transition duration-200 ease-in-out hover:bg-indigo-500 transform hover:-translate-y-1 hover:scale-110 w-4/5 shadow-xl">
           <div class="max-w-7xl mx-auto px-2 py-8 sm:px-6 lg:px-8">
             <div class="text-center flex flex-col justify-center items-center">
               <p
