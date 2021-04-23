@@ -3,20 +3,20 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="Description" content="coolify: Heroku & Netlify alternative" />
+  <meta name="Description" content="coolify: An open-source, hassle-free, self-hostable Heroku & Netlify alternative." />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="twitter:site" content="@andrasbacsai" />
   <meta name="twitter:title" content="coolify" />
-  <meta name="twitter:description" content="Heroku & Netlify alternative" />
+  <meta name="twitter:description" content="An open-source, hassle-free, self-hostable Heroku & Netlify alternative." />
   <meta name="twitter:image" content="https://cdn.coollabs.io/assets/coollabs.png" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://coollabs.io/products/coolify" />
   <meta property="og:title" content="coolLabs" />
-  <meta property="og:description" content="Heroku & Netlify alternative" />
+  <meta property="og:description" content="An open-source, hassle-free, self-hostable Heroku & Netlify alternative." />
   <meta property="og:site_name" content="coolify" />
   <meta property="og:image" content="https://cdn.coollabs.io/assets/coollabs.png" />
-  <title>coolify: Heroku & Netlify alternative</title>
-  <link rel="icon" href="../favicon.png" />
+  <title>Coolify</title>
+  <link rel="icon" href="favicon.png" />
   <link rel="dns-prefetch" href="https://cdn.coollabs.io/" />
   <link rel="preconnect" href="https://cdn.coollabs.io/" crossorigin="" />
   <link rel="stylesheet" href="https://cdn.coollabs.io/css/tailwind-2.0.3.min.css" />
@@ -52,14 +52,17 @@
         }
       }
     }
+
     .bg-coolgray:hover {
-      background-color: rgba(68,64,60)
+      background-color: rgba(68, 64, 60)
     }
+
     .gradient {
       border-bottom: 2px solid transparent;
       border-image: linear-gradient(0.25turn, rgba(255, 249, 34), rgba(255, 0, 128), rgba(56, 2, 155, 0));
       border-image-slice: 1;
     }
+
     .h-screen-footer {
       min-height: calc(100vh - 120px)
     }
@@ -68,12 +71,13 @@
 
 <body class="min-h-screen bg-coolblack">
   <main class="h-screen-footer">
-
     <header class="p-4 flex justify-center">
-      <a href="/index.html"
+      <a href="index.html"
+        class="mx-2 cursor-pointer text-white px-2 rounded transition duration-100 bg-coolgray tracking-tight font-bold">Home</a>
+      <a href="https://coollabs.io"
         class="mx-2 cursor-pointer text-white px-2 rounded transition duration-100 bg-coolgray tracking-tight font-bold">coolLabs</a>
-      <a href="/support.html"
-      class="mx-2 cursor-pointer text-white px-2 rounded transition duration-100 bg-coolgray tracking-tight font-bold text-center">Support
+      <a href="support.html"
+        class="mx-2 cursor-pointer text-white px-2 rounded transition duration-100 bg-coolgray tracking-tight font-bold text-center">Support
         my vision</a>
     </header>
     <div class="">
@@ -106,10 +110,13 @@
               </div>
               <div class="mt-5">
                 <div class="text-lg leading-6 font-extrabold text-white">
-                  Application deployments
+                  Applications
                 </div>
                 <div class="mt-2 text-base text-gray-300">
-                  Deploy your <span class="font-bold text-green-400">Node.js </span>, <span class="font-bold text-green-400">PHP</span>, <span class="font-bold text-green-400">static sites</span> or <span class="font-bold text-green-400">anything with a custom Dockerfile</span> just by pushing code to git.
+                  Deploy your <span class="font-bold text-green-400">Node.js </span>, <span
+                    class="font-bold text-green-400">PHP</span>, <span class="font-bold text-green-400">static
+                    sites</span>, <span class="font-bold text-green-400">Rust</span> or <span class="font-bold text-green-400">anything with a custom Dockerfile</span> just
+                  by pushing code to git.
                 </div>
               </div>
             </div>
@@ -126,10 +133,32 @@
                   Databases
                 </div>
                 <div class="mt-2 text-base text-gray-300">
-                  One-click <span class="font-bold text-yellow-400">MongoDB, MySQL, PostgreSQL, CouchDB</span> deployments!
+                  One-click <span class="font-bold text-yellow-400">MongoDB, MySQL, PostgreSQL, CouchDB</span>
+                  deployments!
                 </div>
               </div>
             </div>
+
+            <div>
+              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-500 text-white">
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <div class="mt-5">
+                <div class="text-lg leading-6 font-extrabold text-white">
+                  Services 
+                </div>
+                <div class="mt-2 text-base text-gray-300">
+                  You can install <a href="https://plausible.io" target="_blank"><span class="font-bold text-blue-500 underline hover:text-white">Plausible Analytics</span></a> with one-click and get richful data of your visitors, in a privacy focused way!<br> <span class="text-xs text-red-500">(more coming soon)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="space-y-10 pt-6 lg:pt-10 lg:space-y-0 mx-auto lg:grid justify-center lg:grid-cols-3 lg:gap-8 w-custom">
             <div>
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-pink-500 text-white">
                 <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -140,32 +169,30 @@
               </div>
               <div class="mt-5">
                 <div class="text-lg leading-6 font-extrabold text-white">
-                  Hassle-free installation
+                  Hassle-free installation and upgrade
                 </div>
                 <div class="mt-2 text-base text-gray-300">
-                  Install your all-in-one infrastructure <span class="font-bold text-pink-500">with one command!</span>
+                  Install your all-in-one infrastructure <span class="font-bold text-pink-500">with one command</span> and get updates <span class="font-bold text-pink-500">with one button click</span>!
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            class="space-y-10 pt-6 lg:pt-10 lg:space-y-0 mx-auto lg:grid justify-center lg:grid-cols-3 lg:gap-8 w-custom">
             <div>
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-500 text-white">
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
               <div class="mt-5">
                 <div class="text-lg leading-6 font-extrabold text-white">
-                  Hassle-free upgrade
+                  User analytics with privacy in mind
                 </div>
                 <div class="mt-2 text-base text-gray-300">
-                  <span class="font-bold text-purple-500">One-click</span> upgrade process!</span>
+                  You can install <span class="font-bold text-blue-500">Plausible Analytics </span>with one-click and get richful data of your visitors, in a privacy focused way!
                 </div>
               </div>
             </div>
-
             <div>
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-red-400 text-white">
                 <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -183,23 +210,7 @@
                 </div>
               </div>
             </div>
-            <div>
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                  stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                </svg>
-              </div>
-              <div class="mt-5">
-                <div class="text-lg leading-6 font-extrabold text-white">
-                  User analytics with privacy in mind
-                </div>
-                <div class="mt-2 text-xs text-red-500">
-                  coming soon
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -214,13 +225,16 @@
       <div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:pb-16 lg:pt-8 lg:px-8">
         <div class="text-base font-extrabold tracking-tight text-white sm:text-2xl pb-4">Try out now with a simple
           command on your own server!</div>
-          <div class="text-base text-white pb-10">(<span class="text-yellow-400 font-bold">Ubuntu 20.04</span> supported at the moment)</div>
+        <div class="text-base text-white pb-10">(<span class="text-yellow-400 font-bold">Ubuntu 20.04</span> supported
+          at the moment)</div>
         <div class="flex justify-center">
-          <div class="tracking-tight text-white font-mono bg-black px-4 py-2 rounded text-sm">/bin/bash -c "$(curl -fsSL https://get.coollabs.io/coolify/install.sh)"</div>
+          <div class="tracking-tight text-white font-mono bg-black px-4 py-2 rounded text-sm">/bin/bash -c "$(curl -fsSL
+            https://get.coollabs.io/coolify/install.sh)"</div>
 
         </div>
         <div class="pb-16">
-          <a href="https://github.com/coollabsio/coollabs-cli-installers" target="_blank" class="tracking-tight text-gray-300 text-xs font-mono hover:underline">(source code)</a>
+          <a href="https://github.com/coollabsio/coollabs-cli-installers" target="_blank"
+            class="tracking-tight text-gray-300 text-xs font-mono hover:underline">(source code)</a>
         </div>
         <h2 class="text-xl font-extrabold tracking-tight text-white sm:text-2xl">
           <span class="block"><span class="text-blue-500">Follow</span> for updates
